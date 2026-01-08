@@ -1,13 +1,14 @@
 [project]
 name = "assignments"
 version = "2026.1"
-description = "Add your description here"
+description = "Assignments for the Soft Computing course at FTN."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "numpy",
     "opencv-contrib-python",
     "pandas",
+    "scikit-learn",
 ]
 
 [dependency-groups]
