@@ -1,0 +1,11 @@
+{
+	"recommendations": [
+		"ms-python.python",
+		"tamasfe.even-better-toml",
+		"ms-toolsai.jupyter"
+	],
+	"unwantedRecommendations": [
+		"mechatroner.rainbow-csv",
+		"tomoki1207.pdf"
+	]
+}

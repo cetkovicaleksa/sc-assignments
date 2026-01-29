@@ -5,14 +5,18 @@ description = "Assignments for the Soft Computing course at FTN."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "keras",
     "numpy",
     "opencv-contrib-python",
     "pandas",
     "scikit-learn",
+    "tensorflow",
 ]
 
 [dependency-groups]
 dev = [
-    "ipykernel>=7.1.0",
     "matplotlib>=3.10.8",
+]
+jupyter = [
+    "ipykernel>=7.1.0",
 ]
